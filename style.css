@@ -1,0 +1,114 @@
+body { 
+font-size: 15px;
+line-height: 1.5;
+letter-spacing: 2px;
+margin:  0;
+
+ }
+
+h1 {
+  color: #080707;
+  text-align: center;
+  }
+
+  h2 {
+    font-family: osswald;
+    color:black;
+    text-align: center;
+    }
+      a{
+        text-decoration: none;
+        text-align: center;
+        
+      }
+
+      h3 {
+    font-family: osswald;
+    color:black;
+    text-align: center;
+    }
+
+p {
+	text-align: center;
+}
+
+      .banner {
+background-image: url("images/plane.jpg");
+text-align: center;
+padding: 150px;
+background-size: cover;
+background-position: top;
+
+}
+#footer {
+
+  background-color: black;
+  color: ghostwhite;
+  margin: 30px;
+  padding: 15px;
+}
+
+.container {
+  padding: 50px;
+  margin: 30px;
+  border: 10 px black;
+}
+
+.cards {
+	display:  grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+.card-white{
+  border: 10 px black;
+  box-shadow: 10px 20px 30px darkgrey;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-white{
+  border: 10 px black;
+  box-shadow: 10px 20px 30px darkgrey;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.card-white{
+  border: 10 px black;
+  box-shadow: 10px 20px 30px darkgrey;
+  margin: 2px;
+  padding: 2px;
+  width: 200px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+ 
+  .card-white {
+    width: auto;
+  }
+}
+ 
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
